@@ -1,2 +1,2 @@
-from httpd
-run aptget update && apt-get upgrade
+FROM httpd
+RUN apt-get update && apt-get upgrade
